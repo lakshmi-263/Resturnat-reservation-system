@@ -1,0 +1,171 @@
+.container {
+  width: 1080px;;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.seats-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.seats-box {
+  color: black;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 150px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.seats-box h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.seats-box p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.reservation-form input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reservation-form button {
+  padding: 10px;
+  background-color: #24ca56;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #0056b3;
+}
+
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.reservation-table th,
+.reservation-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.reservation-table th {
+  background-color: #35abe2;
+  color: white;
+}
+
+.reservation-table button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reservation-table button:hover {
+  background-color: #218838;
+}
+
+.reservation-table button + button {
+  background-color: #4e9fea;
+  margin-left: 5px;
+}
+
+.reservation-table button:hover + button {
+  background-color: #33c8e6;
+}
+
+.header-bar {
+  background-color: #55acf3;
+  color: rgb(9, 9, 9);
+  text-align: center;
+  padding: 15px;
+  font-size: 9px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(32, 143, 207, 0.1);
+  z-index: 1000;
+}
+
+.container {
+  margin-top: 80px; /* Push content below header */
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.chart-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.seat-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tag {
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.total {
+  background-color: #007bff;
+  color: white;
+}
+
+.taken {
+  background-color: #196dc6;
+  color: white;
+}
+
+.left {
+  background-color: #28a745;
+  color: white;
+}
+
+
